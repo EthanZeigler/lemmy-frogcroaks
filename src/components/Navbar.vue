@@ -1,4 +1,5 @@
 <script setup>
+import { RouterLink } from 'vue-router'
 // defineProps({
 //   msg: {
 //     type: String,
@@ -11,17 +12,17 @@
   <div id="sidebar">
     <nav>
       <img src="@/assets/images/logo.png" alt="">
-      <a href="home.html" class="sidebar-button" role="button">
+      <RouterLink to="/" class="sidebar-button" role="button">
         Home
-      </a>
+      </Routerlink>
 
-      <a href="commissions.html" class="sidebar-button" role="button">
+      <RouterLink to="/commission" class="sidebar-button" role="button">
         Commission
-      </a>
+      </RouterLink>
 
-      <a href="about.html" class="sidebar-button" role="button">
+      <RouterLink to="/about" class="sidebar-button" role="button">
         About & Contact
-      </a>
+      </RouterLink>
     </nav>
   </div>
 </template>
