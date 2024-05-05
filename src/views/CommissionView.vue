@@ -75,8 +75,8 @@ const comTypes = [
                         "Does not apply to Artist's Choice",
                     ],
                     prices: {
-                        "Sketch": "20% of total price",
-                        "Clean": "40% of total price",
+                        "Sketch": "+20% of total price",
+                        "Clean": "+40% of total price",
                     },
                 },
                 {
