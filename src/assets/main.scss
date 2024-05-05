@@ -183,11 +183,8 @@ button,
       height: 170px;
       padding: 1rem 0 0.5rem 0;
     }
-  }
-  .example-custom {
-    img {
+    &.large img {
       height: 250px;
-      padding: 1rem 0 0.5rem 0;
     }
   }
   .type {
